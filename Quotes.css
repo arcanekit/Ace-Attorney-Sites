@@ -1,0 +1,77 @@
+.top {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.button:hover {
+  border: 2px solid #666;
+}
+
+.button {
+  padding: 0px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  height: 50px;
+  width: 100px;
+  box-shadow: -5px 5px 10px rgba(100, 100, 100, .8);
+}
+
+.btn {
+  text-align: center;
+}
+
+.quote {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.author {
+  font-style: italic;
+}
+
+.block {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.overlay {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 800px;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  background: url(http://www.court-records.net/arts/big%20court.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
